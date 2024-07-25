@@ -1,0 +1,53 @@
+.task {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+  
+    .task-details {
+      margin-bottom: 10px;
+  
+      h3 {
+        margin: 0;
+        color: #2c3e50;
+      }
+  
+      p {
+        margin: 5px 0;
+        color: #7f8c8d;
+      }
+    }
+  
+    .task-buttons {
+      display: flex;
+      justify-content: space-between;
+  
+      button {
+        cursor: pointer;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 4px;
+  
+        &.edit {
+          background-color: #007bff;
+          color: white;
+  
+          &:hover {
+            background-color: #0056b3;
+          }
+        }
+  
+        &.delete {
+          background-color: #dc3545;
+          color: white;
+  
+          &:hover {
+            background-color: #c82333;
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,28 @@
+.task-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    
+    input, 
+    textarea {
+      margin: 10px 0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+  
+    button {
+      cursor: pointer;
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px;
+      border-radius: 4px;
+      font-size: 1rem;
+  
+      &:hover {
+        background-color: #218838;
+      }
+    }
+  }
